@@ -1,0 +1,57 @@
+.principal-pokemons{
+    width: 80%;
+    margin-top: 48px;
+    position: relative;
+}
+
+.slider-home-card{
+    width: 300px;
+    height: 140px;
+    border-radius: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 24px;
+    background-color: #0C1E7F;
+}
+
+.slider-home-name-pokemon{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.slider-home-type-pokemon{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.slider-home-img-container{
+    width: 100px;
+    height: 100px;
+    display: grid;
+    justify-items: center;
+    border-radius: 100%;
+    filter: drop-shadow(3px 3px 14px #fff);
+}
+
+.slider-home-img{
+    width: 120%;
+    transform: translateY(-20px);
+}
+
+.pokemons-principal-article{
+    position: absolute;
+    right: -200px;
+    top: 10px;
+}
+
+.pokemons-principal-img-container{
+    width: 200px;
+}
+
+
+
+

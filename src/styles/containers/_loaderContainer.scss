@@ -1,0 +1,22 @@
+.loader-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+}
+
+.loader-card{
+    width: 260px;
+    height: 320px;
+    background-color: #B5B2B2;
+    border-radius: 20px;
+}
+
+.blur-out{animation:blur-out 1.5s linear infinite}
+ @keyframes blur-out{
+    0%{filter: brightness(100%);}
+    100%{filter: brightness(30%); opacity: 0%;}
+}
