@@ -63,3 +63,26 @@
         object-fit: cover;
     }
 }
+
+@media (max-width: 640px){
+    .principal-banner{
+        grid-template-columns: none;
+    }
+    .principal-banner-img{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .principal-banner-text{
+        text-align: center;
+    }
+    .principal-banner-text-container{
+        align-items: center;
+    }
+    .principal-banner-text-img-container{
+        width: 100%;
+        justify-items: center;
+        align-items: start;
+    }
+}

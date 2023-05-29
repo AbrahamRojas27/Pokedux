@@ -250,3 +250,13 @@ img{
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+@media (max-width: 640px){
+    .pokemon-container{
+        grid-template-columns: 1fr;
+        padding: 40px 12px 8px;
+    }
+    .pokemon-card{
+        max-width: 500px;
+    }
+}

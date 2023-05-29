@@ -1,5 +1,5 @@
 import img from '/assets/pokemon-5101360_1280 (1).jpg'
-import img2 from '/assets/playing-cards-780326_1280 (1).jpg'
+import img2 from '/assets/pokemon-5975183_1280.jpg'
 
 function PrincipalBannerText(){
     return(

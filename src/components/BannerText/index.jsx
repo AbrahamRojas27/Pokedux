@@ -1,4 +1,9 @@
+import { useNavigate } from "react-router-dom"
+
 function BannerText(){
+
+    const navigate = useNavigate()
+
     return(
         <article className="banner-text-container">
             <div className="banner-text-figure-container">
@@ -7,7 +12,7 @@ function BannerText(){
                 </figure>
             </div>
             <p className="banner-text">Explore among the pokemons of the best generation</p>
-            <button className="pokemon-button">See more</button>
+            <button className="pokemon-button" onClick={() =>navigate('/pokedex')}>See more</button>
         </article>
     )
 }

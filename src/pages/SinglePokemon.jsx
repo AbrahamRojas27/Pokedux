@@ -5,7 +5,6 @@ import PokemonContent from '../containers/PokemonContent'
 
 function SinglePokemon (){
     const { pokemonData } = useLoaderData()
-    console.log()
     return(
         <div className='single-pokemon'>
             <PokemonHeader 
